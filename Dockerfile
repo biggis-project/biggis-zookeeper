@@ -31,7 +31,7 @@ WORKDIR /opt/zookeeper
 
 EXPOSE 2181 2888 3888
 
-HEALTHCHECK --interval=5s --timeout=3s --retries=20 \
+HEALTHCHECK --interval=5s --timeout=5s --retries=3 \
   CMD echo stat | nc localhost 2181
 
 CMD ["bin/zkServer.sh", "start-foreground"]
