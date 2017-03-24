@@ -1,6 +1,5 @@
 # BigGIS Zookeeper
-[![Build Status](https://travis-ci.org/biggis-project/biggis-zookeeper.svg?branch=master)][Travis]
-[Travis]: https://travis-ci.org/biggis-project/biggis-zookeeper
+[![Build Status](https://api.travis-ci.org/biggis-project/biggis-zookeeper.svg)](https://travis-ci.org/biggis-project/biggis-zookeeper)
 Docker container for Apache Zookeeper
 
 ## Prerequisites
