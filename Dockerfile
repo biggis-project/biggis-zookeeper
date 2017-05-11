@@ -2,7 +2,7 @@ FROM biggis/base:java8-jre-alpine
 
 MAINTAINER wipatrick
 
-ARG ZK_VERSION=3.4.6
+ARG ZK_VERSION=3.4.9
 
 ARG BUILD_DATE
 ARG VCS_REF

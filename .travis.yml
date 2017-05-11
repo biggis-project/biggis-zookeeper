@@ -5,7 +5,7 @@ services:
 
 env:
   global:
-    - IMG=biggis/zookeeper:3.4.6
+    - IMG=biggis/zookeeper:3.4.9
 
 install:
   #login to dockerhub
